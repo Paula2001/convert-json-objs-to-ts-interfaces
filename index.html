@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>CONVERT JSON TO TS INTERFACES - Paula George</title>
+</head>
+<body>
+    <h1>CONVERT JSON TO TS INTERFACES</h1>
+    <div class="container">
+        <input class="form-control col-2" value="InterfaceName" cols="40" rows="15" id="interface_name" placeholder="Interface name">
+        <br>
+        <div class="input-group">
+            <textarea class="form-control col-2" cols="40" rows="15" id="input" placeholder="INPUT">{
+
+}</textarea>
+            <span class="input-group-addon">-</span>
+            <textarea class="form-control" readonly cols=40 rows=15 id="result" placeholder="OUTPUT"></textarea>
+        </div>
+        <h4 id="error"></h4>
+
+        <button class="button align-middle btn btn-danger btn-lg" id="convert">Convert to Interface</button>    
+    <div>
+    <div class="footer">
+        <h4>It's a free tool but all copy rigths reserved to <a target="blank" href="https://paula-george.guru"> Paula George 🎸</a></h4>
+    </div>
+    <script src="mapKeysToDataTypes.js"></script>
+</body>
+</html>

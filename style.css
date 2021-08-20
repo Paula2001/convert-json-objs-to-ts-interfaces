@@ -1,0 +1,27 @@
+@font-face {
+    font-family: thunder;
+    src: url('./Thunder_Lord.ttf');
+}   
+textarea{
+    font-size: 20px;
+}
+h1{
+    font-family: thunder;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 ,h4{
+    padding: 0;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
